@@ -20,7 +20,7 @@ The system includes:
 ## Installation
 
 ### Prerequisites
-- Python 3.x
+- Python 3.11
 - TensorFlow
 - OpenCV
 - librosa
