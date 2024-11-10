@@ -10,9 +10,9 @@ import librosa
 import matplotlib.pyplot as plt
 
 # Load Pre-trained Models (Replace paths with actual model paths)
-nlp_model_path = "https://github.com/sohail945/interview.ai/raw/main/NLP_model.h5"
-audio_model_path = "https://github.com/sohail945/interview.ai/raw/main/Audio_model.h5"
-visual_model_path = "https://github.com/sohail945/interview.ai/raw/main/Visual_model.h5"
+nlp_model_path = "NLP_model.h5"
+audio_model_path = "Audio_model.h5"
+visual_model_path = "Visual_model.h5"
 
 nlp_model = tf.keras.models.load_model(nlp_model_path)
 audio_model = tf.keras.models.load_model(audio_model_path)
